@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    font-size: 15px;
+}
+header{
+    text-align: center;
+    padding: 10px;
+}
+.header-text{
+    font-size: 2em;
+    font-weight: normal;
+    line-height: 1px;
+    font-family: sans-serif;
+}
+.header-h1{
+    font-weight: bolder;
+}
+.container{
+    position: relative;
+    top: -150px;
+}
+
+.divmain{
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin: auto;
+    padding-left: 25px;
+    box-shadow: 10px 10px 10px #d9e3ed;
+    line-height: 2;
+    width: 300px;
+    height: 200px;
+
+}
+.supervisor{
+    border-top: 3px solid #47d2d1;
+    position: relative;
+    top: 330px;
+    left: -345px;
+}
+
+.team-builder{
+    border-top: 3px solid #dd5a59;
+    margin-bottom: 30px;
+}
+
+.karma{
+    border-top: 3px solid #f9af50;
+
+}
+
+.calculator{
+    border-top: 3px solid #559eee;
+    position: relative;
+    right: -345px;
+    top: -311px;
+}
+
+.main-image{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 230px;
+    top: 0px;
+}
+@media screen and (max-width: 768px){
+    .divmain{
+        width: 50%;
+        height: 200px;
+        text-align: left;
+        margin: auto;
+        line-height: 2;
+    }
+    .supervisor{
+        position: relative;
+        top: 200px;
+        left: 0;
+    }
+    .team-builder{
+        position: relative;
+        top: 220px;
+        left: 0;
+        padding-bottom: 15px;
+    }
+    .karma{
+        position: relative;
+        top: 240px;
+        left: 0;
+    }
+
+    .calculator{
+        position: relative;
+        left: 0;
+        top: 260px;
+        padding-bottom: 20px;
+
+    }
+
+    .main-image{
+        position: relative;
+        top: 10px;
+        left: 300px;
+    }
+}
+@media screen and (max-width: 375px){
+    .divmain{
+        width: 90%;
+        height: 250px;
+        text-align: left;
+        margin: auto;
+        line-height: 2;
+
+    }
+    .supervisor{
+        position: relative;
+        left: 0;
+        top: 200px;
+    }
+    .team-builder{
+        position: relative;
+        top: 220px;
+        left: 0;
+    }
+    .karma{
+        position: relative;
+        top: 240px;
+        left: 0;
+    }
+
+    .calculator{
+        position: relative;
+        top: 260px;
+        left: 0;
+    }
+    .main-image{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        left: 250px;
+        top: 50px;
+    }
+
+}
